@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: coral;
+    height: 570px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: blue;
+}
+.choose{
+    font-size: 25px;
+    margin: 30px 0px 30px 10px;
+    /* margin-left: 10px; */
+    display: inline-block;
+    font-weight: 500;
+}
+
+.topics{
+    /* background-color: brown; */
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+}
+
+#topic1{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+#topic1:hover{
+    border-width: 5px;
+    cursor: pointer;
+}
+
+#topic2{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+#topic2:hover{
+    border-width: 5px;
+    cursor: pointer;
+}
+
+.t1_category{
+    /* background-color: brown; */
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+}
+
+.t2_category{
+    /* background-color: brown; */
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+}
+
+#E_t1{
+    margin-top: 200px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+#M_t1{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+#H_t1{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 1rem;
+}
+#E_t1:hover{
+    border-width: 5px;
+    cursor: pointer;
+}
+
+#M_t1:hover{
+    border-width: 5px;
+    cursor: pointer;
+}
+
+#H_t1:hover{
+    border-width: 5px;
+    cursor: pointer;
+}
+
+#E_t2{
+    margin-top: 200px;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+#M_t2{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+#H_t2{
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+.hide{
+    display: none;
+}
+
+.hide1{
+    display: none;
+}
+
+.hide2{
+    display: none;
+}
+
+.hide3{
+    display: none;
+}
+.buttons_box{
+    /* background-color: orange; */
+    display : flex;
+    justify-content : flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width : 500px;
+    height : 100px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+.buttons{
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 1rem;
+    width: 250px;
+}
